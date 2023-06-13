@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body class="contact-page">
+    <header class="nav">
+        <h1>Piper Downs</h1>
+        <div class="Links">
+        <nav class="Link">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a class="current" href="contact.html">CONTACT</a>
+        </nav>
+        </div>
+    </header>
+    
+    <div class="contact-body">
+        <h1>Get in Touch</h1>
+
+        <section>
+            <form action="submit.html">
+                <label for="first-name">First Name</label>
+                <input type="text" id="fname" name="fname">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="lname" name="lname"> <br>
+                <label for="email" name="email">Email</label>
+                <input type="email" name="email">
+                <label for="cellphone">Cell Phone</label>
+                <input type="text" id="cellNumber" name="cellNumber"> <br>
+                <label for="contact-method">Preferred Method of Contact</label>
+                <select name="method" id="contact-method">
+                    <option value="zero">Select</option>
+                    <option value="one">Email</option>
+                    <option value="two">Phone</option>
+                    <option value="three">Either</option>
+                </select> <br>
+                <textarea name="message" id="message" cols="70" rows="10"></textarea> <br>
+                <a href="submit.html">
+                    <input type="submit" value="Submit">
+                </a>
+            </form>
+        </section>
+    
+    </div>
+</body>
+</html>

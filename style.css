@@ -23,6 +23,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 a {
@@ -33,19 +35,21 @@ a {
 
 header, 
 footer {
-    padding: 0, 20px;
+    padding: 0 20px;
     background-color: grey;
 }
 
 .home-sidebar, 
 .about-sidebar, 
-.portfolio-sidebar {
+.portfolio-sidebar,
+.contact-sidebar {
     background-color: palevioletred;
 }
 
 .home-page, 
 .about-page, 
-.portfolio-page {
+.portfolio-page,
+.contact-page {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
@@ -54,11 +58,13 @@ footer {
 
 .home-body, 
 .about-body, 
-.portfolio-body  {
+.portfolio-body,
+.contact-body  {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 97px;
 }
 
 .home-page-sidebar-1, 
